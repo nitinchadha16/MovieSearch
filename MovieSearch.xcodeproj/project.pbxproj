@@ -25,6 +25,7 @@
 		B2B3E8DB21B47B26001B59ED /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3E8DA21B47B26001B59ED /* DetailedViewController.swift */; };
 		B2B3E8DE21B47B84001B59ED /* MovieSearchProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3E8DD21B47B84001B59ED /* MovieSearchProtocol.swift */; };
 		B2B3E8E021B47BF1001B59ED /* MovieSearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3E8DF21B47BF1001B59ED /* MovieSearchPresenter.swift */; };
+		B2B3E8E321B487B5001B59ED /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B3E8E221B487B5001B59ED /* DateHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		B2B3E8DA21B47B26001B59ED /* DetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 		B2B3E8DD21B47B84001B59ED /* MovieSearchProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchProtocol.swift; sourceTree = "<group>"; };
 		B2B3E8DF21B47BF1001B59ED /* MovieSearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieSearchPresenter.swift; sourceTree = "<group>"; };
+		B2B3E8E221B487B5001B59ED /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		B2B3E8A921B47658001B59ED /* MovieSearch */ = {
 			isa = PBXGroup;
 			children = (
+				B2B3E8E121B487A6001B59ED /* Utils */,
 				B2B3E8DC21B47B75001B59ED /* Protocols */,
 				B2B3E8D721B47A4D001B59ED /* Screens */,
 				B2B3E8D621B4799F001B59ED /* Model */,
@@ -159,6 +162,14 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		B2B3E8E121B487A6001B59ED /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B2B3E8E221B487B5001B59ED /* DateHelper.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +242,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2B3E8E321B487B5001B59ED /* DateHelper.swift in Sources */,
 				B2B3E8BE21B4770E001B59ED /* Animator.swift in Sources */,
 				B2B3E8DE21B47B84001B59ED /* MovieSearchProtocol.swift in Sources */,
 				B2B3E8AB21B47658001B59ED /* AppDelegate.swift in Sources */,

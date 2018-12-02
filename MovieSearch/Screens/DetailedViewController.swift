@@ -21,7 +21,7 @@ class DetailedViewController: UIViewController {
     override func viewDidLoad() {
         imageView.image = image
         movieTitleLabel.text = "Title : \(movie.title)"
-        yearLabel.text = "Year : \(movie.year)"
+        yearLabel.text = "\(DateHelper.calculatePastYears(year: movie.year)) years ago"
         typeLabel.text = "Type : \(movie.type)"
         view.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(actionClose(_:))))
     }

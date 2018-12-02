@@ -141,7 +141,7 @@ extension MovieSearchViewController: UICollectionViewDataSource {
         
         cell.movieTitleLabel.text = movieRecord.movie.title
         cell.typeLabel.text = movieRecord.movie.type
-        cell.yearLabel.text = movieRecord.movie.year
+        cell.yearLabel.text = "\(DateHelper.calculatePastYears(year: movieRecord.movie.year)) years ago"
         
         if indexPath.row == dataRecordArray.count - 1 {
             downloadNextPageImagesURLList(searchString: searchBar.text!)
